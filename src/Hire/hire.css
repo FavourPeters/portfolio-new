@@ -1,0 +1,41 @@
+.hire-me {
+  text-align: center;
+  padding: 1.7rem 0.7rem;
+}
+.hire-text {
+  color: var(--primary);
+}
+.info {
+  text-align: left;
+  margin-left: 2rem;
+}
+.info div {
+  margin-bottom: 0.7rem;
+}
+label {
+  color: var(--secondary);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+input {
+  background-color: rgb(172, 152, 255);
+  padding: 0.5rem 0.5rem;
+  width: 80%;
+  border-radius: 7px;
+  border-style: none;
+}
+textarea {
+  background-color: rgb(172, 152, 255);
+  width: 90%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 7px;
+  border-style: none;
+}
+.hire {
+  color: var(--primary);
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1.7rem 0.7rem;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer span {
+  color: var(--secondary);
+}
+.icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.cp-right {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.cp-right p {
+  font-size: smaller;
+  margin-left: 0.3rem;
+  margin-top: 0;
+  color: rgb(198, 184, 255);
+}
