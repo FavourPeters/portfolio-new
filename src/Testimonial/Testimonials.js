@@ -1,22 +1,23 @@
 import React from "react";
-import Picture from "./images/testimonials.png";
+import Picture from "../images/Ellipse 1.png";
+import "./testimonial.css";
 
 const Testimonials = () => {
   return (
     <div>
       <section className="testimonials">
         <p>Testimonials</p>
-        <img src={Picture} alt="" width="300px" />
+        <img src={Picture} alt="" width="200px" />
 
         <div className="text">
-          <h4>Favour Peters</h4>
-          <p>Frontend Tutor</p>
+          <h4>Onward Woruka</h4>
+          <p>Web developer</p>
         </div>
 
         <div className="testimony">
           <p>
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            dolorum velit quos!"
+            Started my tech journey with Favour's class and he has been helpful
+            up till now.
           </p>
         </div>
       </section>

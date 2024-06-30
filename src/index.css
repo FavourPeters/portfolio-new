@@ -56,40 +56,6 @@ body {
 .theSkills {
   color: #fff;
 }
-.testimonials {
-  text-align: center;
-  padding: 1.7rem 0.7rem;
-}
-.testimonials > p {
-  color: var(--primary);
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-align: center;
-}
-
-.testimonials img {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -4rem;
-}
-
-.text {
-  margin-top: -3rem;
-  line-height: 1px;
-}
-
-.text h4 {
-  color: var(--primary);
-}
-
-.text p {
-  color: var(--secondary);
-  font-style: italic;
-}
 
 @media only screen and (min-width: 1000px) {
 }

@@ -3,7 +3,7 @@ import "../index.css";
 import Hero from "../Hero-Section/Hero";
 import Projects from "../ProjectT/projects";
 import Skills from "../Skills";
-import Testimonials from "../Testimonials";
+import Testimonials from "../Testimonial/Testimonials";
 import About from "../About/About";
 import Hire from "../Hire/Hire";
 import Footer from "../Footer/footer";
