@@ -1,5 +1,5 @@
 :root {
-  --primary: rgb(22, 0, 109);
+  --primary: rgb(33, 0, 163);
   --secondary: rgba(255, 51, 0, 1);
 }
 
@@ -48,18 +48,26 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.12094rem;
-  margin-bottom: -3.6rem;
+  /* margin-bottom: -3.6rem; */
+  margin-bottom: -2.9rem;
 }
 
 .heroText {
   color: #fff;
-  font-size: 3.125rem;
+  font-size: 2.7rem;
   font-style: normal;
   font-weight: 700;
   line-height: 130.5%; /* 4.07813rem */
   margin-bottom: 0;
 }
-
+@media only screen and (min-width: 375px) {
+  .subText {
+    margin-bottom: -3.6rem;
+  }
+  .heroText {
+    font-size: 3.125rem;
+  }
+}
 @media only screen and (min-width: 1000px) {
   .hero-section {
     padding: 1.5rem 4rem;

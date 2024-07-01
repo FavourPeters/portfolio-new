@@ -25,7 +25,13 @@
 
 .cp-right p {
   font-size: smaller;
-  margin-left: 0.3rem;
+  margin-left: -0.4rem;
+  text-wrap: wrap;
   margin-top: 0;
   color: rgb(198, 184, 255);
+}
+@media only screen and (min-width: 375px) {
+  .cp-right p {
+    margin-left: 0.3rem;
+  }
 }
