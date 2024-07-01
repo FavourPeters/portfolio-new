@@ -1,13 +1,11 @@
 :root {
-  --primary: rgba(51, 0, 255, 1);
+  --primary: rgb(30, 0, 151);
   --secondary: rgba(255, 51, 0, 1);
 }
 
 body {
   margin: 0;
-  font-family: "poppins";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "poppins", Courier, monospace;
 }
 
 .skills {
