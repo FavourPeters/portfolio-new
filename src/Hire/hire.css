@@ -1,9 +1,22 @@
+:root {
+  --primary: rgb(33, 0, 163);
+  --secondary: rgba(255, 51, 0, 1);
+}
 .hire-me {
   text-align: center;
   padding: 1.7rem 0.7rem;
 }
 .hire-text {
   color: var(--primary);
+}
+.hire_link {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  color: white;
+  border: 3px solid var(--secondary);
+  border-radius: 1.5rem;
+  background-color: var(--secondary);
 }
 .info {
   text-align: left;
