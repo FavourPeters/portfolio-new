@@ -13,7 +13,11 @@ const Skills = () => {
         <section className="texts">
           <p>Software Engineer/Web Developer</p>
           <p>ALX Certified Software Engineer</p>
-          <Link to="https://intranet.alxswe.com/certificates/6BGZhEfRxe">
+          <Link
+            to="https://intranet.alxswe.com/certificates/6BGZhEfRxe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             See Credentials
           </Link>
         </section>
