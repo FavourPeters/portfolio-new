@@ -25,12 +25,14 @@ const footer = () => {
             className="icon"
           />
         </Link>
+        <Link to="https://x.com/favourlpeters">
+          <FontAwesomeIcon
+            icon={faXTwitter}
+            style={{ color: "#ffffff" }}
+            className="icon"
+          />
+        </Link>
 
-        <FontAwesomeIcon
-          icon={faXTwitter}
-          style={{ color: "#ffffff" }}
-          className="icon"
-        />
         <Link to="https://www.linkedin.com/in/favour-l-peters-73b1b922b/">
           <FontAwesomeIcon
             icon={faLinkedin}
@@ -38,7 +40,6 @@ const footer = () => {
             className="icon"
           />
         </Link>
-
         <Link to="https://wa.link/rwz2je">
           <FontAwesomeIcon
             icon={faWhatsapp}
