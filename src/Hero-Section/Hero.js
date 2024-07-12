@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollAnimation from "../ScrollAnimation";
+import { fadeInUp } from "../animationVariants";
 import Illustration from "../images/brain illustation.svg";
 import "./hero.css";
 
 const Hero = () => {
   return (
-    <div>
+    <ScrollAnimation animationVariants={fadeInUp}>
       <div className="hero-section">
         <section className="nav-bar">
           <Link to="/" className="logo">
@@ -63,7 +65,7 @@ const Hero = () => {
           />
         </section>
       </div>
-    </div>
+    </ScrollAnimation>
   );
 };
 

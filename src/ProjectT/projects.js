@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollAnimation from "../ScrollAnimation";
+import { fadeInUp } from "../animationVariants";
 import Adviceimg from "../images/Advice App.png";
 import Hospiyou from "../images/hospiyou.png";
 import Game from "../images/game.png";
@@ -7,7 +9,7 @@ import "./project.css";
 
 const projects = () => {
   return (
-    <div>
+    <ScrollAnimation animationVariants={fadeInUp}>
       <section className="projects headings">
         <p>Projects</p>
         <div className="image-container">
@@ -50,7 +52,7 @@ const projects = () => {
           </div>
         </div>
       </section>
-    </div>
+    </ScrollAnimation>
   );
 };
 

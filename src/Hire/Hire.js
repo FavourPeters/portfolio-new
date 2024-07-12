@@ -3,6 +3,8 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ThreeDots } from "react-loader-spinner";
+import ScrollAnimation from "../ScrollAnimation";
+import { fadeInUp } from "../animationVariants";
 import "./hire.css";
 
 const Hire = () => {
@@ -51,7 +53,7 @@ const Hire = () => {
   };
 
   return (
-    <div>
+    <ScrollAnimation animationVariants={fadeInUp}>
       <section className="hire-me">
         <p className="hire">Hire Me</p>
         <p className="hire-text">
@@ -121,7 +123,7 @@ const Hire = () => {
         </form>
       </section>
       <ToastContainer />
-    </div>
+    </ScrollAnimation>
   );
 };
 

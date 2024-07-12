@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollAnimation from "./ScrollAnimation";
+import { fadeInUp } from "./animationVariants";
 import Mongo from "./images/mongo.png";
 import Node from "./images/node.png";
 import JS from "./images/JavaScript-logo.png";
@@ -7,7 +9,7 @@ import react from "./images/react-logo.png";
 
 const Skills = () => {
   return (
-    <div>
+    <ScrollAnimation animationVariants={fadeInUp}>
       <section className="skills">
         <p>Skills</p>
         <section className="texts">
@@ -34,7 +36,7 @@ const Skills = () => {
           </p>
         </div>
       </section>
-    </div>
+    </ScrollAnimation>
   );
 };
 

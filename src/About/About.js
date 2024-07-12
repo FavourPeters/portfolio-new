@@ -1,10 +1,12 @@
 import React from "react";
+import ScrollAnimation from "../ScrollAnimation";
+import { fadeInUp } from "../animationVariants";
 import Picture from "../images/testimonials.png";
 import "./about.css";
 
 const About = () => {
   return (
-    <div>
+    <ScrollAnimation animationVariants={fadeInUp}>
       <section className="about">
         <p>About</p>
         <div className="about-cont">
@@ -37,7 +39,7 @@ const About = () => {
           <li>Freelance: Available</li>
         </ul>
       </section>
-    </div>
+    </ScrollAnimation>
   );
 };
 
