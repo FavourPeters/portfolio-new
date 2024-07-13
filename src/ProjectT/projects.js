@@ -5,6 +5,7 @@ import { fadeInUp } from "../animationVariants";
 import Adviceimg from "../images/Advice App.png";
 import Hospiyou from "../images/hospiyou.png";
 import Game from "../images/game.png";
+import Tours from "../images/tours.png";
 import "./project.css";
 
 const projects = () => {
@@ -47,6 +48,18 @@ const projects = () => {
               use of Fetch APIs
             </p>
             <Link to="https://advice-a-p-p.netlify.app/" className="preview">
+              Preview site
+            </Link>
+          </div>
+          <div className="image">
+            <img src={Tours} alt="" srcset="" />
+            <p className="image-headline">Tours</p>
+            <p className="paragraph">
+              One of my practice projects, created a custom API(contents are
+              found here) to fetch it. It displays available tours for user to
+              select which one they are interested in.
+            </p>
+            <Link to="https://favour-tours.netlify.app/" className="preview">
               Preview site
             </Link>
           </div>
